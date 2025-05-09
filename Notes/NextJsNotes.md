@@ -99,5 +99,45 @@ some thing like this.
 - Matlab aap Api Routes ki madad se serverless functions ko bana sakty hy for to handle the api requests. Matlab api k requests ko handle krne k liye aap log Api Routes ka use krthy hy.
 ![alt text](image-8.png)
 - tho api routes ko use krne k liye aap ko simple apne folder k anar routes.js k naam se file ko banan hota hy. aap jiss b folder me api routes ko use krna chahtay hy bs waha pr iss naam se file banaye etc.
+- iss api routes ko hum log aghy ja kr explore karenge jub hum log jo hy project ko banayenge etc.
+
+### Lee Robinson VP of Developer Experinece at vercel
+- Lee Robinson jo vice president hy at vercel me jiss ne Next.js ko b banaya hy wo vecel aik company hy. tho iss ne apne aik post article me kaha hy k bhai agr aap React,express,webpack ki jagah agr aap Next.js se apni application ko banatay ho tho iss se aap k taqreeban 20,000 thousands line of code jo hy reduce hojata hy jo k aap k application improve krtha hy etc.
+- jo k aap k application k speed ko improve krtha hy iss ne kaha hy k Next.js aap k application ko 1.3s se 131ms mili-second thak aap k application ko fast krdeta hy jo k 10x gunna kam hy etc. 
+- tho simple c baat hy k ye aap k application k speed ko b improve krtha hy etc.
+
+- Agla Feature jo Next.js ka hy wo hy Automatic Code Splitting
+
+#### Automatic Code Splitting
+![alt text](image-9.png)
+- code splitting aik technique hy jiss me larege codeo of javaScript ko small and manageable chunks me devide kiya jata hy.
+- or ye code plitting code tub load hota hy jub iss ki need hoti hy.
+- React me aap ko code splitting jo hy manual krni prthi hy bohat sari configurations etc k baad hi aap k pass code splitting hota hy. application k grow hone k sath sath.
+- Magr Next.js me ye completely automatic hota hy aap ko khud se configurations etc nhi krni prthi hy.
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+- code splitting matlab jaise agr user kisi aik specific page jaise agr About pr click krntha hy tho complete website reaload ya jisse load b kehtay hy oss ki bajaye sirf wahi code load hota hy jiss page k upar aap ne click kiya howa ho. that is called code splitting.
+
+![alt text](image-12.png)
+- tho iss trha front-end development me hamare pass bohat sare advancements howe hy in different ways.
+
+![alt text](image-13.png)
+- tho developer apne code k speed ko improve krne k liye or apne application ko better and fast banane k liye different types of frameworks ka use krthy hy jiss se developer jo hy sirf development pr focus krtha hy configurations ki bajaye.
+
+![alt text](image-14.png)
+- Tho Next.js me aap k pass bohat sari cheeze automatic hojati hy aap ko bs sirf actual code krne pr focus krna hota hy as a compare to k aap configrations b kare q k ye kaam Next.js khud hi krdeta hy.
+- or Next.js ka final jo advantage hy wo ye hy k it's still React matlab ye abhi react hi hy q k bhai ye tho react ka framework hy etc.
+- Next.js is not entirely the new technology. It is still fundamentally built on top of React.
+- Matlab Next.js jo hy ye koi entirely naya framework matlab technology nhi hy bal k iss ko react ko improve krne or react k upar based aik framework hi hy jiss me new features add kiye gaye hy jaise routing jiss me aap ko koi package install krne ki zaroorat nhi parthi hy etc. or b bohat sari cheeze jaise server-side rendering etc.
+
+![alt text](image-15.png)
+![alt text](image-16.png)
+![alt text](image-17.png)
+![alt text](image-18.png)
+
+
+
+
 
 
