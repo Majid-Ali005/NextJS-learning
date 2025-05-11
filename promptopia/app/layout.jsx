@@ -7,6 +7,13 @@ import '../styles/globals.css'; // If styles is inside src
 // "@/*": ["./*"] yaha se iss forward slash like "@*": ["./*"] this simple.
 
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+
+import Nav from "@components/Nav";
+// yaha pr mene navabar ko import kiya howa hy.
+import Provider from "@components/Provider";
+// yaha pr mene provider ko import kiya howa hy.
 
 export const metadata = {
   title: "Create Next App",
@@ -17,6 +24,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        {/* yaha pr mene Navbar k component ko call kiya howa hy q k ye same hota hy har page me etc. */}
+        <center>
+          <Nav /> 
+        </center>
         {children}
       </body>
     </html>

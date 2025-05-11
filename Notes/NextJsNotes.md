@@ -416,6 +416,34 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 NOTE: aap k file ka name ka first letter jo hy capital letter me hona chaye hy.
 
+- or phir mene layout.js k andar provider or Navbar ko import kiya howa hy or phir use kiya howa hy q k hamare pass application me Nav bar same hi rehit hy tho iss wja se layout oss ko har page pr show krata rahega for that reason etc.
+
+##### Nav.jsx
+- iss me aap ko inn sub cheezo ko import krna hy q k iss me hum log iss ka use karenge jaise authentications etc.
+```bash
+"use client" 
+// iss ko baad me aap hata b sakty hy.
+
+import Link from "@node_modules/next/link";
+// ye link humme routing me aik page se dosre page pr jane k liye use hoga.
+import Image from "@node_modules/next/image";
+// or ye image hamare pass hum jo b image apne application k andar use karenge ye oss ko optmize karega.
+import { useState, useEffect } from "react";
+// q k iss hooks ka use hum log apne project me karenge.
+import { signIn, signOut, useSession, getProviders } from 'next-auth/react';
+// inn sub ka use hum log authenticaion krthy time pr use karenge.
+
+const Nav = () => {
+  return (
+    <div>Nav</div>
+  )
+}
+
+export default Nav
+```
+
+- aik baat jub b aap next.js me image ko call krthy ho tho waha pr aap ko widht,or height deni prthi hy warna aap k pass phir error jo hy show hoga etc.
+
 
 
 

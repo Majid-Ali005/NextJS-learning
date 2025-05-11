@@ -1,9 +1,12 @@
 import Feed from "@components/Feed";
 // iss trha k import k liye mene jsonconfig.json se frward slash hataya hy.
 
+
 const page = () => {
   return (
-    <section className="w-full flex-center flex-col">
+   <>
+   <center>
+     <section className="w-full flex-center flex-col">
       <h1 className="  text-center">
         Discover & Share
         <br />
@@ -19,6 +22,8 @@ const page = () => {
       <Feed />
       {/* or yaha pr phir mene Feed Component ko apply kiya howa hy etc. */}
     </section>
+   </center>
+   </>
   )
 }
 
