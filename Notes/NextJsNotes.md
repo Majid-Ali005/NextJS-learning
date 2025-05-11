@@ -295,6 +295,50 @@ something like this
 - it combines the benefits of  SSR and SSG  for dynamic content in static site
 - iss ko or b hum log application ko banatay time or b explore karenge.
 
+#### Next.js API Endpoints
+- next.js aap ko http request handle krne ka features b provide krtha hy with the help of file base system.
+- matlab aap file based system ko use kr k http request ko handle kr sakty hy etc.
+
+![alt text](image-45.png)
+- EXAMPLE: jaise ye express.js ka code hy iss me aap ko routing or server khud banana partha tha k ham ne apne application me jo cheeze add ki hy wo iss server pr run hojaye magr next.js me aisa nhi hai next.js me aap ko pehly se server or client dono side ki server bane banaye mil jatay hy etc simple.
+
+- NOTE: magr hum log next.js me 2 ways se route handler ko kr sakty hy
+1. first tho aap jo folder bana kr routing rhy thy first way tho wo hy.
+2. or dosre way me aap ko route.js ki file banani parthi hy app directory me. tho ye aap k pass act karega as a backend api route. magr abhi agr aap iss k bare me na jane tho koi masla nhi hy.
+
+
+- NOTE: aap ko jub api k related kaam krna ho tho oss ko phir api k aik folder me sara kaam kare or components k liye components me kaam kare tha k project hamare pass organize rhy etc.
+
+![alt text](image-46.png)
+- tho ab ye route.js jo k user k andar aap ne banaya hy ye aap k pass act karega as backend api route.
+
+- below kuch http k methods hy jo k next.js iss ko allow krtha hy. matlab aap iss ko next.js me use kr sakty hy.
+![alt text](image-47.png)
+- tho aap inn sub http request ko apne route.js k file k andar use kr sakty hy.
+- NOTE: aap k pass aap k file ka naam route.js hi hona chaye hy q k tub hi ye act karega as a backend route.
+
+![alt text](image-48.png)
+- jaise mene app/api/user/route.js k andar jo hy iss GET method ko use kiya howa hy simple.
+![alt text](image-49.png)
+- or job functionality aap ne express.js k andar banaye thi oss ko aap next.js me b easily bana sakty hy. kuch iss trha se apne route.js k special file ko use kr k.
+- tho agr aap yaha pr dekhe tho aap ko koi b another functionality jo hy krne ki zaroorat nhi hy jaise aap express.js me krthy thy k bhai pehly import kare server banao port banao etc. bs aap ko next.js me sirf business logic k upar focus krna hota hy etc simple.
+
+- NOTE: apne route.js ko app k folder me na banaye bal k jiss component ko aap server side route banana chahtay hy waha pr iss ko banaye jaise mene iss ko user k andar route.js kr k banaya hy etc. simple.
+
+- tho ab iss route.js k file k data ko mujhe route kr k browser pr show karana hy tho oss k liye simple c cheez hy k aap localhost.... access kr sakty etc See Below for example.
+
+![alt text](image-50.png)
+```bash
+http://localhost3000/api/users
+```
+- NOTE: yaha pr me ye api iss wajah se likh rha ho q k hamare pass users jiss k andar route.js hy wo api k folder directory me mojood hy etc.
+
+- bs yaha pr thak hum ne bohat sare concepts ko cover krliya hy bs aik rehata hy jo k hy SEO or phir iss k baad aap apne Modern Full Stack Application ko bana sakty hy etc.
+
+
+
+
+
 
 
 
