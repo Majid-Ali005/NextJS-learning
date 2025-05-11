@@ -137,6 +137,41 @@ some thing like this.
 ![alt text](image-18.png)
 
 
+# File & Folder Structure
+- Project ko create krne k liye desktop ya phir kisi b jagah pr aik folder ko banana hy or phir oss k andar apne project ko banana hy tha k hamare pass project aik organize tarikay se rahy because organization is very important.
+
+### Next.js Project Creation
+```bash
+npx create-next-app@latest
+```
+- aap iss command ko run kr k project ko bana sakty hy bs iss k baad kuch options ayenge jiss ko aap ko yes ya no krne hota hy etc simple.
+1. first aap se question pochega k aap TypeScript ko use krna chahoge tho aap ko no krdena hy q k hum log Js k upar kaam karenge.
+2. ESLint ko b no krdena hy.
+3. Tailwind Css ko yes krdena hy.
+4. would you like to use src dirctory tho iss me b aap ko no krdena hy.
+5. experimental app direcotory ko b aap ko yes krdena hy.
+6. what import alias... iss ko b aap ko yes krdena hy iss se aap kisi b command k alias matlab shorcut bana sakty hy etc.
+7. or phir enter ko press krdena hy.
+8. iss k baad thora sa load lega or phir aap k samne project create ho kr ajayega.
+
+![alt text](image-19.png)
+- NOTE: har framework ya phir language jo hy blog or doc likhta hy tho or details etc k liye aap oss k official documentations se parhna bohat zaroori hota hy etc.
+
+
+#### app Folder
+![alt text](image-20.png)
+- app folder aap k pass sub se important folder hota hy aap k next.js k application me.
+
+##### Layout.js
+- layout.js file is the main entry file. entry level ki jo file hy wo aap k pass layout.js hy.
+- sari components issi hi k andar wrapped hotay hy as a children matlab ye sub components aap jitne b banatay hy onn sub ka parent hy etc.
+- jaise agr aap iss layout.js k file me koi b cheeze likhe tho wo aap k pore application k upar dikhegi jaise aap k pass common cheeze hoti hy jaise header navbar etc.
+![alt text](image-21.png)
+something like this.
+- matlab layout.js file k andar jitne b changes honge tho oss k results aap k pass sare components me show honge.
+
+
+
 
 
 
