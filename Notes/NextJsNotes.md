@@ -335,6 +335,21 @@ http://localhost3000/api/users
 
 - bs yaha pr thak hum ne bohat sare concepts ko cover krliya hy bs aik rehata hy jo k hy SEO or phir iss k baad aap apne Modern Full Stack Application ko bana sakty hy etc.
 
+#### SEO & Metadata
+![alt text](image-51.png)
+- Next.js aap ko two ways se Metadata ko define krne ko deta hy first is static and second is dynamic.
+
+1. Modify Metadata in a Static Way
+![alt text](image-52.png)
+- tho aap iss trha se simply static metadata ka use kr k apne data ko modify kr sakty hy. Bs simply aap ko apne function k sath metadata k naam se function ko b export krna hota hy.
+- NOTE: ye metadata function ka naam aap k pass same hona chaye hy etc.
+
+2. Modify Metadata in a Dynamic Way
+![alt text](image-53.png)
+- tho iss thra hamare pass SEO jo hy improve hoti hy wese ye kaam SEO expert ka hota hy magr aap ko b thora bohat samjh me ajana chaye hy.
+
+- Tho yaha pr hamare pass Crash course jo hy Next.js ka end hojata hy or hum ne kaafi sari cheeze cover krli hy ab hum log project ko banayenge jiss ko mene upar b discuss kiya tha etc.
+
 
 
 
