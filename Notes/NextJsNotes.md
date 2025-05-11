@@ -239,6 +239,43 @@ something like this
 - jub aap ko react ko use krna ho next.js me tho tub aap client side components ka use kr sakty hy bs sirf oss k head me "use client" ko add krna hy simple.
 - or iss ko "use client" ko use client string kaha jata hy.
 
+#### Routing & Special Next.js File
+- next.js file based routing ko use krtha hy matlab iss me route banane k liye aap ko simply aap k directory me folder ko banana hy or phir oss folder k naam ko aap as a route access kr sakty hy matlab wo route hi hojata hy etc.
+
+![alt text](image-34.png)
+- jaise agr user k liye route ko banana ho tho oss k liye simpli apne app k directory me user k naam se folder banaye or phir osss k andar aik file Page.js etc or phir aap iss k folder se localhost pr acces kr sakty hy iss file ko etc. matlab ye folder hamare pass automatically route ban jata hy etc.
+
+- Example: but thora sa ab complicated routing krthy jaise hamare pass blog ki application hoti hy jiss me differets routes hotay hy or har route ki different functionality hoti hy etc.
+- Nested Routing ka use hum log yaha pr karenge.
+![alt text](image-35.png)
+- without next.js aap routing kuch iss trha se kr sakty hy. in react me. react me aap ko reacter-router-dom package ko install krna hota hy phir import/exprt or phir Routes,Route,route etc. magr next.js me aisa kuch nhi hota hy. or aap react.js me nested route kuch iss trha se bana sakty hy jaise aap ko upar k screen shot me dikha rha hy.
+- Next.js: --> next.js me aap nested routing ko easily folder k andar folder bana kr bana sakty hy nested routing ko.
+![alt text](image-36.png)
+- tho aap kuch iss trha se nested routing kr sakty hy next.js me folder ki madad se bs aap ko aik folder k andar dosre folder ko banana hy etc.
+- bhai iss ki ye jo example hum ne ki hy ye kuch iss trha se hy k aik blog website k liye hy jiss me aap k pass post show hotay hy jo k posts or page.js me ho rha hy magr phir aap post ko create b tho kr sakty hy new post ko tho phir hum ne dosre aik folder ko banaya jo k hy new tho ab aap localhost:300/posts/new kr k nested routing achieve kr sakty hy issi trha aap delete or update k liye b bana sakty hy etc. simple.
+- tho agr aap yaha pr dekhe tho har cheez jo hy wo hamare pass folder or file ki madad se ho rhi hy etc.
+
+#### Dynamic Routing
+- magr hamare pass application jaise jaise grow hoti jati hy tho humme phir new features ki zaroorat prhthi hy tho issi liye thora sa advance jatay hy or aye parthay hy dynamic routing k bare me.
+- Dynamic routing aik flexible system hota hy jiss me aap website k pages ko bantay hy with the help of different variable and data.
+![alt text](image-37.png)
+- tho chalaye ab start krthy hy k hum kiss trha se dynamic routing ko bana sakty hy or iss example me hum log dynamic routing ka use kr k apne blog k content ko show karenge.
+![alt text](image-38.png)
+- jaise aap k pass post one ho sakta hy 2 ho sakta hy etc tho iss ko change or show krne k liye humme aik dynamic way ko use krna hota hy tho iss k liye hum log dynamic routing ka use karenge etc.
+![alt text](image-39.png)
+- react me aap kuch iss trha se dynamic routes ko bana sakty hy.
+
+- Magr next.js me dynamic routing ko banane k liye humme sirf simple [] square brackets ka use krna hota hy in file based system. q k next.js file base system routing ko support krtha hy etc.
+![alt text](image-40.png)
+
+#### Error Handling
+- error handling sirf aap developer k liye nhi hota hy bal k ye aap jub user koi ghalat cheeze dale etc or oss ko phir oss k client side pr aik meaningful message show krna hamare pass error handling kehlata hy etc.
+
+- tho yaha pr aap ne next.js k modern taqreeban concepts ko cover liya hy.
+
+
+
+
 
 
 
