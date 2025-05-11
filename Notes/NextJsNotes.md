@@ -205,6 +205,41 @@ something like this
 ##### How to Rendering component on client side?
 ![alt text](image-30.png)
 - q k hamare pass next.js me component jo hy server-side pr render hotay hy tho aap ko agr client-side pr component ko render krna ho tho phir aap ko simple oss file k head me "use client" likhna hy to phir aap k pass wo file component jo hy client side pr render hoga.
+- or agr server-side pr component ko render krwana ho tho phir aap ko simply Head me se "use client" ko remove krdena hy etc.
+
+##### Client vs Server Side Component
+![alt text](image-31.png)
+- ye component aap k pass server-side pr render hoga
+![alt text](image-32.png)
+- or ye component aap k pass client-side pr render hoga q k iss k upar head me hum logo ne "use clent" kiya howa hy simple.
+
+
+#### When to use Server vs. Client Components?
+- ab aik sawal ajata hy k bhai hum kab server or kab client side componet ko use kare.
+- next.js aap ko ye bolta hy k bhai aap server-side k components ko use kare q k ye kaafi efficient hy jiss ko hum ne upar b discuss krliya hy.
+- ye aik table hy jiss me sub explain kiya howa hy k kab server or kab client side component ko use krna chaye hy
+![alt text](image-33.png)
+
+##### Server-Side Components
+
+1. jub aap ko koi data ko fetch krna ho jaise koi article ho ya phir koi blog ya koi website data etc tho tub aap ko server-side components ko use krna hy.
+2. Access bakcend resources (directly) --> jub aap ko kisi b backend resources ko access krna ho tho phir aap server-side components ka use kare.
+3.  Keep sensitive information in the server (access tokens, Api Keys, etc) agr krna ho tho phir aap server-side component ko use kare.
+
+##### Client-Side Components
+1.  Ad interactivity and event listeners like (onClick(), onChange. etc) tho tub aap jo hy client-side components ko use kare.
+2. use state and lifecycle Effects like (useState(), useReducer(), useEffect, etc tho thub  b aap client-side components ko use kare.
+3. User browser-only APIs
+4. use custome hooks that depend on state, effects, or browser-only APIs
+5. use react class components or jub aap ko class components ko use krna ho.
+
+- NOTE: tho yaha pr aap ko taqreeban clartiy agaye hy k aap ko kab client or kab server side components ko use krna hy.
+
+#### In a Simple Words
+- jub aap ko react ko use krna ho next.js me tho tub aap client side components ka use kr sakty hy bs sirf oss k head me "use client" ko add krna hy simple.
+- or iss ko "use client" ko use client string kaha jata hy.
+
+
 
 
 
