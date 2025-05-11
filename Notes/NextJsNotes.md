@@ -273,6 +273,27 @@ something like this
 
 - tho yaha pr aap ne next.js k modern taqreeban concepts ko cover liya hy.
 
+#### Data Fetching (SSR,SSG,ISR)
+- ye kuch ways hotay hy jiss ki madad se aap next.js me data ko fetch kr sakty hy.
+![alt text](image-41.png)
+
+1. Server Side Rendering (SSR) ==> iss me simple ye hota hy k server pr jo b request ja rhi hy ye oss request ko server thak le jaye or phir server se koi fresh data ko jo hy aap k samne show kara de. tho ye server se data ko show karana fresh data ko ye aap k pass SSR rendering kehlti hy etc.
+
+![alt text](image-42.png)
+- EXAMPLE: tho agr iss example me dekhe tho hum ne aik jasonplaceholder k api ko call kiya hota hy or phir oss ko niche body me title or oss k body ko kiya howa hy.
+- no store matlab k bhai aap data ko apne pass na rakhe data jo user mang rha hy jiss ko me call kr rha ho oss ko call krdena etc. simple yehi aap k pass SSR rendering hoti hy etc.
+
+2. Static Site Generation
+![alt text](image-43.png)
+- jaise yaha pr mene api se cache no store ko remove krdiya hy tho iss se ye hoga k aap k pass jo data hy wo automtically call hoga or jo new data a rha hy wo b apni marzi se show hoga tho iss type k rendering ko Static Site Rendering kaha jata hy.
+- matlab iss me ye data ko pehly fetch karega or phir show karega matlab direct jaise hi iss k pass fresh data ayega tho ye SSG k redering me wo oss fresh data ko direct call nhi karega first apne andar store karega or phir call karega etc.
+
+3. Incremental Static Generation (ISR)
+![alt text](image-44.png)
+- aap ko iss trha se next..... k line ko addk rna hy tho phir aap k pass ISR Rendering hogi
+- ISR rendring me ye hota hy k ye aap k data fetching ko or b improve krdeta hy matlab ye aik sath SSG,SSR dono ko combine krdeta hy or phir data ko show krtha rehta hy jiss se cheeze matlab data fetching improve hojata hy etc. simple.
+- it combines the benefits of  SSR and SSG  for dynamic content in static site
+- iss ko or b hum log application ko banatay time or b explore karenge.
 
 
 
