@@ -391,6 +391,9 @@ q k iss se hamare pass tailwind css ad hojati hy.
 jo k ye hy ye bol rha hy k bhai mujhe dosra file layout.jsx b chaye hy q k yehi layout.jsx hi sari components ko show or manage krtha hy etc.
 
 - or layout.jsx me b rafce ko chalna hy command ko tha k aap k pass aik function bun kr ajaye.
+- bs yaha pr iss layout.jsx me wo styles glbals.css ko import krna zaroori hota hy.
+![alt text](image-58.png)
+- kuch iss trha se yaha pr ye metadata hamare pass seo k perspective se hy bs yaha pr hamare pass pehly jo layout.jsx tha ossi hi sari code ko hum ne phir se likh diya hy etc.
 
 
 
