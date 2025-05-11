@@ -411,6 +411,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 - or phir simply apne layout.jsx me iss bootstrap ko import krna hy.
 - tho ab aap jiss trha se react me kaam krthy thy k input ko close krna hy etc wahi kaam yaha pr b hoga etc simple.
 
+![alt text](image-59.png)
+- Bhai dekho sub se easy tarika aap k pass ye hota hy k aap jo  b project bnana rhy ho tho oss me aap ko jo jo components chaye hy oss k file pehly banao etc. 
+
+NOTE: aap k file ka name ka first letter jo hy capital letter me hona chaye hy.
+
 
 
 

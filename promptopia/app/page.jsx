@@ -1,4 +1,5 @@
-
+import Feed from "@components/Feed";
+// iss trha k import k liye mene jsonconfig.json se frward slash hataya hy.
 
 const page = () => {
   return (
@@ -15,6 +16,8 @@ const page = () => {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum odio fuga at. Odio deserunt dignissimos ullam, vitae voluptas dolorem
         </p>
       </center>
+      <Feed />
+      {/* or yaha pr phir mene Feed Component ko apply kiya howa hy etc. */}
     </section>
   )
 }
