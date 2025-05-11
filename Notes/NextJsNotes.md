@@ -350,6 +350,51 @@ http://localhost3000/api/users
 
 - Tho yaha pr hamare pass Crash course jo hy Next.js ka end hojata hy or hum ne kaafi sari cheeze cover krli hy ab hum log project ko banayenge jiss ko mene upar b discuss kiya tha etc.
 
+##  promptopia
+![alt text](image-54.png)
+- kuch iss trha ka project ko hum log banayenge jiss me aap sign in kr sakty hy with the helps of google authentications and next js autentications
+- after login aap prompt ko serach or find kr sakty hy.
+- aap hash tage pr click kr k oss k related content ko find kr sakty hy.
+- aap prompt ko copy update delete kr sakty hy or share b etc.
+
+
+# Let's Get Started
+
+- first tho aap ko apne new project ko banana hy next.js k project ko tha k hum log aik fresh project ko letay howe challe.
+
+- Magr iss k sath aap ko aik or cheez ko b install krna hy jo k hy bcrypt iss se hum password ko encrypt karenge. or iss k sath sath aap ko mongoDB mongose or next-auth ko b install krna hy. inn cheezo k bare me aap ko pata hy.
+```bash
+ npm install bcrypt mongodb mongoose next-auth
+```
+- or phir iss k baad aap ko apne app k folder ko pora delete krna hy q k hum log project ko bilkul scratch se banayenge. or phir app k folder ko banana hy.
+- or phir aik or folder ko banana hy jo k aap k app k andar nhi hona chaye hy bal k main jagah pr hona chaye hy jaise app khud hy oss ki trha magr aap k andar nhi hona chaye hy. q k issi hi components k folder se hi hum log reusable components ko banayenge.
+- or phir aik models k liye file ko banana hy or wo b bahi hi hona chaye hy simple.
+- or phir public k folder ko b delete ya phir khali krdena hy bs aap k pass khali hona chaye hy. matlab k empty krdena hy.
+- or phir aik or naye folder ko banana hy jo k styles k naam se hoga iss me hum log sari ki sari styling rakhenge.
+- or phir aik folder ko banana hy jiss ka naam hoga utils iss me hamare pass sari ki sari utilities ayegi jaise functions etc.
+- or phir issi hi utils k folder k andar aik file ko banana hy .env k naam se jiss k andar ham apne keys ko secure kr k rakhenge.
+
+![alt text](image-55.png)
+- aap k pass kuch iss trha ka folder structure hona chaye hy.
+
+- NOTE: aap apne styles k folder k andar aik file banao globals.css k naam se or phir oss k andar ossi global css k code ko paste krdena jo k hamare pass project ko banatay time mila tha etc.
+q k iss se hamare pass tailwind css ad hojati hy.
+
+![alt text](image-56.png)
+- jaise agr rafce jaise or b shortcut agr aap k pass nhi a rhy hy tho tub aap iss extension ko install krdena.
+
+- project ko start krne ka sub se best way hy k aap app me page.jsx k naam se file banaye or phir application ko run kare.
+- import React from 'react' --> agr aap iss ko remove krde jo k rafce k run krne pr ajata hy tho koi masla nhi koi k next.js me zaroori nhi hota hy k aap react ko import kare etc.
+
+- NOTE: ab iss trha se simple app me page.jsx banane k baad agr aap apne project ko run krthy ho tho aap ko aik error milega jo k
+![alt text](image-57.png)
+jo k ye hy ye bol rha hy k bhai mujhe dosra file layout.jsx b chaye hy q k yehi layout.jsx hi sari components ko show or manage krtha hy etc.
+
+- or layout.jsx me b rafce ko chalna hy command ko tha k aap k pass aik function bun kr ajaye.
+
+
+
+
 
 
 
