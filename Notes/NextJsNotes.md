@@ -169,7 +169,42 @@ npx create-next-app@latest
 ![alt text](image-21.png)
 something like this.
 - matlab layout.js file k andar jitne b changes honge tho oss k results aap k pass sare components me show honge.
+- yehi layout.js aap ko common layout provide krdeta hy jiss se aap easily components bana bana kr apne application ko bana sakty hy.
+- jo b file aap layout.js me call karenge tho ye aap k pore application through out the application aap k pass show hoga.
+![alt text](image-22.png)
+- ye layouts etc k bare me agr aap ko or parhna ho tho aap next.js ki official documentations se ja kr parh sakty hy.
 
+![alt text](image-23.png)
+- jaise k yaha pr bataya gaya hy k aap k pass kuch file matlab components jo hy common hoti hy jo k through out the application dikthi hy jaise Navbar and Footer tho oss ko aap kuch iss trha se call kr k or main k components ko iss bech me call kr sakty hy etc.
+- or ye layout.js ki jo file hy ye aap ko allow krthi hy k aap html k appearance ko change kr saky jaise language hogaya ya phir jo aap k pass meta data hota hy oss ko change krna etc aap layout.js se easily kr sakty hy.
+![alt text](image-24.png)
+something like this
+- jaise aap k pass redux toolkit ya phir navbar and footer ko call aap layout.js me krthy hy.
+
+##### Page.js
+- Page.js ka simple purpose ye hota hy k ye aap k home page ko represent krtha hy. jaise aap apne application ko run krthy ho first time tho jo content ya design aap ko dikhta hy wo yehi Page.js se hi ata hy etc. simple.
+![alt text](image-25.png)
+- jaise agr aap localhost:3000/ krthy hy tho jo file aap ko dikhti hy wo yehi Page.js ki hi hoti hy.
+- first time pr iss Page.js me boilerplate code parha howa hota hy.
+
+##### globals.css
+- that file contains the global css
+- iss file k andar aap k pass global css hota hy jo k aap k pore application pr apply ho rha hota hy.
+![alt text](image-26.png)
+- tho agr aap dekhe tho iss ko layout.js me import kiya howa hy tho aap k application pr tub hi ye global css apply ho rhi hy.tho import or export krna zaroori hota hy. remember this.
+![alt text](image-27.png)
+- issi globals.css k andar aap k pass tailwind css b apply howa hy.
+![alt text](image-28.png)
+- tho agr aap yaha pr dekhe tho ye component aap ko simply react function ki trha dikh rha hy magr asal me ye component aap k pass server side pr render ho rha hy. dikhta tho ye react function ki trha hy jaise hum react me kaam krthy thy magr ye render hamare pass server-side pr hota hy.
+
+![alt text](image-29.png)
+- react18 or next.js ne aik new way se components ko render krne ka trika ya phir aik way provide kiya jiss me aap components ko server-side or client-side dono pr render kr sakty hy.
+- NOTE: next.js k andar hamare pass jitne b components bantay hy wo hamare pass app folder k andar hi bantay hy agr iss se bahir aap folder ko bantay ho tho phir aap ko error milega. Tho aap ko apne app folder k andar kaam krna hota hy etc. 
+- next.js aap ko server-side rendering provide krtha hy jiss ki wja se aap ki page ki load jo hy speed me hojati hy or SEO b improve hojata hy. because of the server-side rendering components.
+
+##### How to Rendering component on client side?
+![alt text](image-30.png)
+- q k hamare pass next.js me component jo hy server-side pr render hotay hy tho aap ko agr client-side pr component ko render krna ho tho phir aap ko simple oss file k head me "use client" likhna hy to phir aap k pass wo file component jo hy client side pr render hoga.
 
 
 
