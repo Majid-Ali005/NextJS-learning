@@ -6,7 +6,7 @@ import '../styles/globals.css'; // If styles is inside src
 // agr aap ko iss trha ka import chaye hy tho phir aap simply jsconfig.json me ja kr wha ase forward slash / ko hata dena bs sirf @ iss ko rehnay dena simple
 // "@/*": ["./*"] yaha se iss forward slash like "@*": ["./*"] this simple.
 
-
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 export const metadata = {
   title: "Create Next App",

@@ -395,6 +395,24 @@ jo k ye hy ye bol rha hy k bhai mujhe dosra file layout.jsx b chaye hy q k yehi 
 ![alt text](image-58.png)
 - kuch iss trha se yaha pr ye metadata hamare pass seo k perspective se hy bs yaha pr hamare pass pehly jo layout.jsx tha ossi hi sari code ko hum ne phir se likh diya hy etc.
 
+#### Home Page
+- tho chaliye start krhty hy ab home k components se.
+- aap ko classes use krne k liye aap tailwind k website pr ja kr search kr sakty hy or phir onn cheezo ko apply kr sakty hy etc.
+
+##### Add Boostrap in our application 
+- Step 1: Install
+```bash
+npm install bootstrap
+```
+- Step 2: Import bootstrap in layout.jsx
+```bash
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+```
+- or phir simply apne layout.jsx me iss bootstrap ko import krna hy.
+- tho ab aap jiss trha se react me kaam krthy thy k input ko close krna hy etc wahi kaam yaha pr b hoga etc simple.
+
+
+
 
 
 

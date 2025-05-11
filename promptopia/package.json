@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.6",
     "mongodb": "^6.16.0",
     "mongoose": "^8.14.2",
     "next": "15.3.2",
